@@ -5,7 +5,7 @@ import seaborn as sns
 import plotly.express as px
 
 # Load the financial data file
-file_path = "C:\\Users\\Rodrigo\\Project\\Datascience\\Input\\gcdf_v3_finance.csv"
+file_path = "gcdf_v3_finance.csv"
 finance_data = pd.read_csv(file_path)
 
 # Filter relevant data
